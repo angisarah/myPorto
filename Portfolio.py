@@ -27,7 +27,7 @@ with st.container():
     # Horizontal layout for logo and navigation buttons
     st.markdown(
         f"""
-        <div style=" position : fixed; top:0 ;margin-right: 80px; margin-left: 80px;margin-top: 32spx; width: 100%; background-color: rgba(0, 0, 0, 0.8); z-index: 1000;">
+        <div style=" position : fixed; top:0 ;margin-right: 80px; margin-left: 80px;margin-top: 32px; width: 100%; background-color: rgba(0, 0, 0, 0.8); z-index: 1000;">
             <div style="display: flex; align-items: center; justify-content: space-between;">
                 <div>
                     <!-- Logo Image -->
