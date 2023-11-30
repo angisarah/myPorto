@@ -22,17 +22,18 @@ pronoun = info['Pronoun']
 
 
 # Add logo image and navigation buttons
+# Add logo image and navigation buttons
 with st.container():
     # Horizontal layout for logo and navigation buttons
     st.markdown(
         f"""
-        <div style="position: fixed; top:0;left:0; width: 100%; background-color: white; z-index: 1000; padding :20;">
+        <div style="position: fixed; top: 0; width: 100%; background-color: white; z-index: 1000; padding: 10px;">
             <div style="display: flex; align-items: center; justify-content: space-between;">
                 <div>
                     <!-- Logo Image -->
-                    <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 24px;">
+                    <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 50px;">
                 </div>
-                <div style = "position:fixed;right:0 ;padding :56;">
+                <div style="display: flex; gap: 20px;">
                     <!-- Navigation Buttons -->
                     <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">About</button>
                     <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">Home</button>
@@ -43,6 +44,7 @@ with st.container():
         """,
         unsafe_allow_html=True,
     )
+
 with st.sidebar:
 	
     st.markdown("""
