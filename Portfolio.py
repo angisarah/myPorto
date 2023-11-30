@@ -30,7 +30,7 @@ with st.container():
             <div style="display: flex; align-items: center; justify-content: space-between;">
                 <div>
                     <!-- Logo Image -->
-                    <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 50px;">
+                    <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 24px;">
                 </div>
                 <div style="display: flex; gap: 20px;">
                     <!-- Navigation Buttons -->
