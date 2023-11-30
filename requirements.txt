@@ -12,3 +12,5 @@ langchain
 pydantic>=1.10.0
 streamlit-option-menu==0.1.2
 streamlit-extras
+ibm-watson==7.0.1
+ibm-watson==7.0.1
