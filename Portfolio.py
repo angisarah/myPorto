@@ -20,22 +20,13 @@ pronoun = info['Pronoun']
 # configure page settings
 
 
-# load local CSS styles
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-local_css("styles_main.css")
-
-# get the variables from constants.py
-pronoun = info['Pronoun']
 
 # Add logo image and navigation buttons
 with st.container():
     # Horizontal layout for logo and navigation buttons
     st.markdown(
         f"""
-        <div style="display: flex; align-items: center; justify-content: space-between;">
+        <div style="position: fixed; top: 0; left: 0;display: flex; align-items: center; justify-content: space-between;">
             <div>
                 <!-- Logo Image -->
                 <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 50px;">
