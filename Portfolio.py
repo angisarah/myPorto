@@ -32,7 +32,7 @@ with st.container():
                     <!-- Logo Image -->
                     <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 50px;">
                 </div>
-                <div style="display: flex; gap: 20px;">
+                <div style="display: flex; gap: 5px;">
                     <!-- Navigation Buttons -->
                     <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">About</button>
                     <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">Home</button>
