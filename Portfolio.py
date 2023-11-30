@@ -29,7 +29,7 @@ with st.container():
         f"""
         <div style="position: fixed; top: 0;right: 0;left: 8; width: 100%; background-color: white; z-index: 1000; padding: 48px;">
             <div style="display: flex; align-items: center; justify-content: space-between;">
-                <div>
+                <div style="position: fixed;left: 8;">
                     <!-- Logo Image -->
                     <img src="https://i.imgur.com/kjwJq12.png" alt="Logo" style="width: auto; height: 24px;">
                 </div>
