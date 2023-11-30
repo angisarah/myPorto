@@ -35,7 +35,7 @@ with st.container():
                 </div>
                 <div style="margin-right: 148px;display: flex; gap: 40px;">
                     <!-- Navigation Buttons -->
-                    <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">Home</button>
+                    <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;color: yellow;">Home</button>
                     <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">Projects</button>
                     <button onclick="location.href='#'" style="background-color: transparent; padding: 10px 20px; border: none; cursor: pointer;">About</button>
                 </div>
