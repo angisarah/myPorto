@@ -85,11 +85,7 @@ button[type=submit]:hover {
   background-color: black
 }
 
-/* Hide Streamlit Branding */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;
-       background-color: #333;}
+
 
 
 .footer {
